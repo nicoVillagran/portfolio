@@ -36,12 +36,20 @@ nav a:hover {
   list-style: none;
   text-decoration: none;
 }
+/*
+--bg: 247, 246, 243;
+        --color: 55, 53, 47;
+        --bg2: 255, 255, 255;
+        --fill-grey: 251, 251, 250;
+        --border-color: 55, 53, 47;
+*/
 :root {
   --bg: 247, 246, 243;
   --color: 55, 53, 47;
   --bg2: 255, 255, 255;
   --fill-grey: 251, 251, 250;
   --border-color: 55, 53, 47;
+
   --blue: 35, 131, 226;
   --blue-light: 214, 234, 248;
   --color-grey: 118, 129, 144;
@@ -60,6 +68,13 @@ nav a:hover {
   --zIndexBtnMenu: 4;
   --zIndexModal: 5;
   --zIndexSubage: 6;
+}
+html.dark {
+  --bg: 30, 30, 30;
+  --color: 221, 227, 229;
+  --bg2: 34, 35, 38;
+  --fill-grey: 46, 51, 56;
+  --border-color: 255, 255, 255;
 }
 .infoBlock > *,
 body {
