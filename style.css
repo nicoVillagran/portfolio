@@ -611,7 +611,7 @@ textarea {
   font-weight: 700;
   font-size: 20px;
 }
-.techs > div:first-child picture {
+/*.techs > div:first-child picture {
   background-color: #e34f26;
 }
 .techs > div:nth-child(2) picture {
@@ -625,12 +625,14 @@ textarea {
 }
 .techs > div:nth-child(5) picture {
   background-color: #787cb5;
-}
-.techs > div:nth-child(6) picture {
-  background-color: #f14e32;
-}
+  }
+  .techs > div:nth-child(6) picture {
+    background-color: #f14e32;
+  }
+*/
 .techs > div:last-child picture {
   background-color: #222;
+  border-radius: .75rem;
 }
 #projects {
   margin-bottom: 100px;
